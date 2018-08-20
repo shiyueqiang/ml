@@ -1,13 +1,12 @@
 # coding:utf-8
 """
-@version: 
-@author: shiyueqiang 
+@version:
+@author: shiyueqiang
 @file: views.py
 @time: 2018/8/2 下午3:49
 @desc:
 """
 from . import *
-from app.suite.user.create_user import create
 from app.suite.command.commands import Command
 from app.suite.case.test_case import test_case
 from app.utils.common import tools
@@ -16,17 +15,6 @@ import os
 
 
 
-@user.route('/createUser', methods=['GET', 'POST'])
-def createUser():
-    """
-    创建用户
-    """
-    if tools.check_params(request.form):
-        fromData = request.form
-        data = fromData.to_dict()
-        return tools.result(create.user(data), '创建成功')
-    else:
-        return jsonify({'msg': '参数不能为空'})
 
 
 @service.route('/move', methods=['GET', 'POST'])

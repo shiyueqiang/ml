@@ -16,14 +16,6 @@ config = tools.get_config(envConfigPath)
 sqlYml = os.path.join(sqlPath, 'sql.yml')
 sqlPool = tools.get_yml(sqlYml)
 
-if config['env']['model']:
-    dbn = DB(host=config['dbn']['host'], port=config['dbn']['port'], user=config['dbn']['user'], passwd=config['dbn']['passwd'])
-    dbo = DB(host=config['dbo']['host'], port=config['dbo']['port'], user=config['dbo']['user'], passwd=config['dbo']['passwd'])
-else:
-    dbn = DB(host='127.0.0.1', port=3307, user=config['dbn']['user'], passwd=config['dbn']['passwd'])
-    dbo = DB(host='127.0.0.1', port=3306, user=config['dbo']['user'], passwd=config['dbo']['passwd'])
-
-mydb = DB(host='192.168.100.215', port=3306, user=config['dbo']['user'], passwd=config['dbo']['passwd'])
 
 def create_app(config_filename):
     """
