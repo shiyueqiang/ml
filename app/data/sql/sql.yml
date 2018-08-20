@@ -1,0 +1,56 @@
+sql:
+  # 用户充值
+  user_recharge: >
+    INSERT INTO `jx_sdk`.`balance_change_record` (`bcr_id`, `bcr_account_no`, `bcr_amount`, `bcr_type`, `bcr_create_time`) VALUES (null, '%s', '%s', '7', NOW());
+  # 计息的拼接sql
+  jx_uid: >
+    SET @uid='%s';
+  jx_time: >
+    SET @jxsj='%s';
+    SET @tqbj = '0';
+    SET @jx = '0';
+  jx: >
+    DELETE FROM `jd-java`.`activity_award_tmp` WHERE date = @jxsj;
+    DELETE FROM `jd-java`.`activity_notice` WHERE an_notice_date = @jxsj;
+    INSERT INTO `jd-java`.`activity_award_tmp` (`external_id`, `u_id`, `money`, `rate`, `detail`, `type`, `date`) VALUES
+    ('1', @uid, @tqbj, '680', CONCAT('[{"money":"', @tqbj, '","ac_id":38}]'), '0', @jxsj),
+    ('1', @uid, '0', @jx, CONCAT('[{"rate":"',@jx,'","ac_id":"3"}]'), '1', @jxsj);
+    INSERT INTO `jd-java`.`activity_notice` (`an_id`, `count_visual`, `count_rate`, `an_notice_date`, `an_create_time`) VALUES
+    (replace(uuid(),'-',''), '1', '1', @jxsj, NOW());
+  jx_user: >
+    DELETE FROM `jd-activity`.`activity_award_tmp` WHERE date = @jxsj;
+    INSERT INTO `jd-activity`.`activity_award_tmp` (`u_id`, `money`, `rate`, `detail`, `type`, `date`, `u_role`) VALUES
+    (@uid, @tqbj, '680', CONCAT('[{"money":"',@tqbj,'","ac_id":38}]'), '0', @jxsj, '1'),
+    (@uid, '0', @jx, CONCAT('[{"rate":"',@jx,'","ac_id":"3"}]'), '1', @jxsj, '1');
+  jx_ouser: >
+    DELETE FROM `jd-activity`.`activity_award_tmp` WHERE date = @jxsj;
+    INSERT INTO `jd-activity`.`activity_award_tmp` (`u_id`, `money`, `rate`, `detail`, `type`, `date`, `u_role`) VALUES
+    (@uid, @tqbj, '680', CONCAT('[{"money":"',@tqbj,'","ac_id":38}]'), '0', @jxsj, '0'),
+    (@uid, '0', @jx, CONCAT('[{"rate":"',@jx,'","ac_id":"3"}]'), '1', @jxsj, '0');
+  # 查询用户是否存在
+  user: >
+    select * from `jd-user`.user where u_logname ='%s';
+ouser:
+  # 更新java数据库身份证号
+  update_old_user_java: >
+    UPDATE `jd-java`.`user_account` SET u_id_card=concat(substring(u_id_card, 1, length(u_id_card) - length(u_id)), u_id), ua_bank_card=concat(substring(ua_bank_card, 1, length(ua_bank_card) - length(u_id)), u_id) where ua_bank = 5;
+  # 更新PHP数据库身份证号
+  update_old_user_php: >
+    UPDATE `jd-user`.`user` SET u_id_card=concat(substring(u_id_card, 1, length(u_id_card) - length(u_id)), u_id)
+  # 添加尊享子账户
+  add_old_user_zx_sub: >
+    INSERT INTO `jd-java`.`user_sub_account` select '%s', ua_id, 4, u_id, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.00000000, 0.00000000, 0, 0.00000000, 0, 0, 0, 0, now(), now(), NULL, NULL, NULL, NULL from `jd-java`.user_account where user_account.ua_is_deleted =0 and u_id = '%s'
+  # 更新PHP数据库平台角色
+  set_role_old: >
+    UPDATE `jd-user`.`user` SET u_role = 0 WHERE u_logname = '%s'
+case:
+  # 保存用例
+  save: >
+    INSERT INTO  `case_manager`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`)
+    VALUES(null, '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s','%s',NOW(), NOW());
+  # 获取用例版本号
+  get_version: >
+    select Format(`bc_version`,1) bc_version  from `case_manager`.business_case where bc_module ='%s' order by bc_version desc;
+  # 查询测试用例
+  select_all: >
+    select `bc_id`, `bc_module`, Format(`bc_version`,1) bc_version, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`, `bc_case_type`, DATE_FORMAT(bc_create_time, '%Y-%m-%d %H:%i:%s') bc_create_time, DATE_FORMAT(bc_modify_time, '%Y-%m-%d') bc_modify_time from `case_manager`.`business_case`

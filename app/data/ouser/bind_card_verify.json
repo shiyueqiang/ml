@@ -1,0 +1,28 @@
+{
+    "statics": {
+        "os": "android4.4.4",
+        "o7": "",
+        "udid": "EE0D77879BCDA3228C8265B35252C8AF",
+        "push_channelid": "4249809634140459513",
+        "simnumber": "",
+        "version": "4.1.0",
+        "token": "",
+        "device_token": "861138026744165",
+        "connecttype": "",
+        "push_userid": "741865315020485835",
+        "push_appid": "5336588",
+        "ua": "M353",
+        "user_id": "",
+        "imsi": "",
+        "channel": "tencent",
+        "mobile": "",
+        "system_version": "4.4.4"
+    },
+    "fun": {
+        "bind_card_verify": {
+            "sms_code": "100000",
+            "bank_id_order": ""
+        }
+    },
+    "version": "2"
+}

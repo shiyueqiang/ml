@@ -1,0 +1,26 @@
+{
+	"fun": {
+		"set_password": {
+			"password": "11111111"
+		}
+	},
+	"version": "3",
+	"statics": {
+		"system_name": "iOS",
+		"sign": "4fc22ae354332f6f934aaea749fc6b74",
+		"version": "6.4.1",
+		"system_version": "11.3.1",
+		"channel": "appstore",
+		"push_server": "product",
+		"idfa": "0EAB3F62-1A4F-4499-B9C4-87B7166CC0D5",
+		"timestamp": "1527574917",
+		"user_id": "7a8d5f2f2c127a289dbe6aba21338831",
+		"o7": "",
+		"os": "iOS 11.3.1",
+		"token": "91a1627d315d59cd25541e9b0f9b832d",
+		"salt": "AgCSvXTlAX",
+		"device_name": "iPhone",
+		"ua": "gucci",
+		"udid": "7e16c0b2e29a4d019cbe6bd7cd452dff"
+	}
+}

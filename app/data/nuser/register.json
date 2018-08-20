@@ -1,0 +1,24 @@
+{
+	"fun": {
+		"register": {
+			"sms_code": "111111",
+			"mobile": "17612360045"
+		}
+	},
+	"version": "3",
+	"statics": {
+		"system_name": "iOS",
+		"sign": "232c824bd7e3b1ea0d73177fa4a310cf",
+		"version": "6.4.1",
+		"system_version": "11.3.1",
+		"channel": "appstore",
+		"push_server": "product",
+		"timestamp": "1527513043",
+		"idfa": "0EAB3F62-1A4F-4499-B9C4-87B7166CC0D5",
+		"os": "iOS 11.3.1",
+		"salt": "guyfYmFBWB",
+		"device_name": "iPhone",
+		"ua": "gucci",
+		"udid": "7e16c0b2e29a4d019cbe6bd7cd452dff"
+	}
+}

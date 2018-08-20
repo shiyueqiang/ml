@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# 当前脚本所在目录
+SCRIPT_PATH=$(cd "$(dirname "$0")"; pwd)
+
+# 进入脚本当前脚本
+cd $SCRIPT_PATH 
+
+if [ ! -d "/home/work/test/logs" ]; then
+    mkdir -p /home/work/test/logs 
+fi
+
+echo "=> prepare venv"
+make
+
+echo "=> install requirements"
+make update
+
+#echo "=> run test server"
+#make run

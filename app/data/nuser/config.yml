@@ -1,0 +1,13 @@
+INVEST_PERSONAL_REGISTER_EXPAND:
+  req_data: {amount: 1000000, authList: 'TENDER,CREDIT_ASSIGNMENT', checkType: LIMIT,
+    failTime: 20230526, idCardType: PRC_ID, platformUserNo: null, redirectUrl: 'https://xwm.jindanlicai.com/Xwcallback/openXwAccount',
+    requestNo: null, timestamp: null, userLimitType: ID_CARD_NO_UNIQUE, userRole: INVESTOR}
+  serviceName: PERSONAL_REGISTER_EXPAND
+USER_RECHARGE:
+  req_data: {amount: 1000000, bankcode: EVER, callbackMode: DIRECT_CALLBACK, expectPayCompany: YEEPAY,
+    expired: null, platformUserNo: null, rechargeWay: SWIFT, redirectUrl: 'https://xwm.jindanlicai.com/Xwcallback/recharge',
+    requestNo: null, timestamp: null}
+  serviceName: RECHARGE
+config: {url: 'http://bapi.jindanlicai.com/v16'}
+dlan_payload: {keySerial: '1', platformNo: !!python/unicode '6000003937', reqData: null,
+  serviceName: null, sign: '1', userDevice: MOBILE}

@@ -1,0 +1,140 @@
+2018-08-15 19:01:46,896 - root - INFO - 开始执行sql:   
+2018-08-15 19:01:46,897 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:01:46,903 - root - INFO - 开始执行sql:   
+2018-08-15 19:01:46,904 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='清分' order by bc_version desc;
+2018-08-15 19:01:46,910 - root - INFO - 开始执行sql:   
+2018-08-15 19:01:46,910 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='转出' order by bc_version desc;
+2018-08-15 19:01:46,913 - root - INFO - 开始执行sql:   
+2018-08-15 19:01:46,914 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='标地' order by bc_version desc;
+2018-08-15 19:01:46,919 - root - INFO - 开始执行sql:   
+2018-08-15 19:01:46,919 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '投资', '10.0', '呵呵哒', '测试', '标地导入成功', '1.生成标地
+2.生成标地
+3.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:01:46,969 - root - INFO - 开始执行sql:   
+2018-08-15 19:01:46,969 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '标地', '10.0', '呵呵哒', '12123.0', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:01:47,002 - root - INFO - 开始执行sql:   
+2018-08-15 19:01:47,002 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '标地', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:01:47,036 - root - INFO - 开始执行sql:   
+2018-08-15 19:01:47,036 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '转出', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:01:47,069 - root - INFO - 开始执行sql:   
+2018-08-15 19:01:47,069 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '清分', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:01:47,102 - root - INFO - 开始执行sql:   
+2018-08-15 19:01:47,102 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:02:12,156 - root - INFO - 开始执行sql:   
+2018-08-15 19:02:12,156 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:02:12,161 - root - INFO - 开始执行sql:   
+2018-08-15 19:02:12,162 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='清分' order by bc_version desc;
+2018-08-15 19:02:12,166 - root - INFO - 开始执行sql:   
+2018-08-15 19:02:12,166 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='转出' order by bc_version desc;
+2018-08-15 19:02:12,169 - root - INFO - 开始执行sql:   
+2018-08-15 19:02:12,169 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='标地' order by bc_version desc;
+2018-08-15 19:02:12,175 - root - INFO - 开始执行sql:   
+2018-08-15 19:02:12,178 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '投资', '10.0', '呵呵哒', '测试', '标地导入成功', '1.生成标地
+2.生成标地
+3.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:02:12,222 - root - INFO - 开始执行sql:   
+2018-08-15 19:02:12,223 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '标地', '10.0', '呵呵哒', '12123.0', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:02:12,255 - root - INFO - 开始执行sql:   
+2018-08-15 19:02:12,256 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '标地', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:02:12,289 - root - INFO - 开始执行sql:   
+2018-08-15 19:02:12,289 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '转出', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:02:12,322 - root - INFO - 开始执行sql:   
+2018-08-15 19:02:12,323 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '清分', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:02:12,356 - root - INFO - 开始执行sql:   
+2018-08-15 19:02:12,356 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:03:04,634 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:04,634 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:03:04,638 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:04,638 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='清分' order by bc_version desc;
+2018-08-15 19:03:04,642 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:04,642 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='转出' order by bc_version desc;
+2018-08-15 19:03:04,646 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:04,646 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='标地' order by bc_version desc;
+2018-08-15 19:03:04,653 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:04,653 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '投资', '10.0', '呵呵哒', '测试', '标地导入成功', '1.生成标地
+2.生成标地
+3.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:03:04,750 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:04,750 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '标地', '10.0', '呵呵哒', '12123.0', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:03:04,783 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:04,784 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '标地', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:03:04,817 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:04,817 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '转出', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:03:04,850 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:04,851 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '清分', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:03:04,884 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:04,884 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:03:04,889 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:04,890 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:03:39,268 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:39,268 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:03:39,273 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:39,273 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='清分' order by bc_version desc;
+2018-08-15 19:03:39,277 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:39,277 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='转出' order by bc_version desc;
+2018-08-15 19:03:39,281 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:39,281 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='标地' order by bc_version desc;
+2018-08-15 19:03:39,288 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:39,288 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '投资', '10.0', '呵呵哒', '测试', '标地导入成功', '1.生成标地
+2.生成标地
+3.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:03:39,336 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:39,336 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '标地', '10.0', '呵呵哒', '12123.0', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:03:39,369 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:39,369 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '标地', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:03:39,403 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:39,403 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '转出', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:03:39,444 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:39,444 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '清分', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:03:39,478 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:39,478 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:03:39,483 - root - INFO - 开始执行sql:   
+2018-08-15 19:03:39,483 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:04:18,483 - root - INFO - 开始执行sql:   
+2018-08-15 19:04:18,484 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:04:18,490 - root - INFO - 开始执行sql:   
+2018-08-15 19:04:18,490 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='清分' order by bc_version desc;
+2018-08-15 19:04:18,494 - root - INFO - 开始执行sql:   
+2018-08-15 19:04:18,494 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='转出' order by bc_version desc;
+2018-08-15 19:04:18,499 - root - INFO - 开始执行sql:   
+2018-08-15 19:04:18,500 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='标地' order by bc_version desc;
+2018-08-15 19:04:18,512 - root - INFO - 开始执行sql:   
+2018-08-15 19:04:18,512 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '投资', '10.0', '呵呵哒', '测试', '标地导入成功', '1.生成标地
+2.生成标地
+3.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:04:18,572 - root - INFO - 开始执行sql:   
+2018-08-15 19:04:18,572 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '标地', '10.0', '呵呵哒', '12123.0', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:04:18,614 - root - INFO - 开始执行sql:   
+2018-08-15 19:04:18,614 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '标地', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:04:18,655 - root - INFO - 开始执行sql:   
+2018-08-15 19:04:18,656 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '转出', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:04:18,697 - root - INFO - 开始执行sql:   
+2018-08-15 19:04:18,697 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '清分', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:04:18,748 - root - INFO - 开始执行sql:   
+2018-08-15 19:04:18,748 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:04:18,753 - root - INFO - 开始执行sql:   
+2018-08-15 19:04:18,753 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:05:16,205 - root - INFO - 开始执行sql:   
+2018-08-15 19:05:16,205 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:05:16,212 - root - INFO - 开始执行sql:   
+2018-08-15 19:05:16,212 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='清分' order by bc_version desc;
+2018-08-15 19:05:16,216 - root - INFO - 开始执行sql:   
+2018-08-15 19:05:16,216 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='转出' order by bc_version desc;
+2018-08-15 19:05:16,220 - root - INFO - 开始执行sql:   
+2018-08-15 19:05:16,220 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='标地' order by bc_version desc;
+2018-08-15 19:05:16,229 - root - INFO - 开始执行sql:   
+2018-08-15 19:05:16,229 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '投资', '10.0', '呵呵哒', '测试', '标地导入成功', '1.生成标地
+2.生成标地
+3.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:05:16,304 - root - INFO - 开始执行sql:   
+2018-08-15 19:05:16,304 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '标地', '10.0', '呵呵哒', '12123.0', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:05:16,354 - root - INFO - 开始执行sql:   
+2018-08-15 19:05:16,354 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '标地', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:05:16,404 - root - INFO - 开始执行sql:   
+2018-08-15 19:05:16,404 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '转出', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:05:16,454 - root - INFO - 开始执行sql:   
+2018-08-15 19:05:16,455 - root - INFO - INSERT INTO  `test_case`.`business_case` (`bc_id`, `bc_module`, `bc_version`, `bc_prd`, `bc_case_title`, `bc_precondition`, `bc_operate_steps`, `bc_expected_result`, `bc_priority`, `bc_ispass`, `bc_case_manager`,`bc_case_type`,`bc_create_time`, `bc_modify_time`) VALUES(null, '清分', '10.0', '呵呵哒', '测试2', '标地导入成功', '1.生成标地', '导入成功', '1.0', 'PASS', '史悦强','业务测试用例',NOW(), NOW());
+2018-08-15 19:05:16,504 - root - INFO - 开始执行sql:   
+2018-08-15 19:05:16,505 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
+2018-08-15 19:05:16,510 - root - INFO - 开始执行sql:   
+2018-08-15 19:05:16,510 - root - INFO - select Format(`bc_version`,1) bc_version  from `test_case`.business_case where bc_module ='投资' order by bc_version desc;
